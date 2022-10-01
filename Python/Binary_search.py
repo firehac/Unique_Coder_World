@@ -17,11 +17,11 @@ def binarySearch (arr, l, r, x):
 		return -1
 
 arr = [ 2, 3, 4, 10, 40 ]
-x = 10
+x = 19
 
 result = binarySearch(arr, 0, len(arr)-1, x)
 
 if result != -1:
 	print ("Element is present at index % d" % result)
 else:
-	print ("Element is not present in array")
+	print ("Element is not present in array list")

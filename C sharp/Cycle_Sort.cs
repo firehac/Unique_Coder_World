@@ -7,8 +7,8 @@ class GFG {
         int writes = 0;
  
         for (int cycle_start = 0; cycle_start <= n - 2; cycle_start++)
-        {
-            int item = arr[cycle_start];
+        
+            int item = arr[cycle_start]
 
             int pos = cycle_start;
             for (int i = cycle_start + 1; i < n; i++)
@@ -23,7 +23,7 @@ class GFG {
  
             if (pos != cycle_start) {
                 int temp = item;
-                item = arr[pos];
+                item = arr[pos]
                 arr[pos] = temp;
                 writes++;
             }
@@ -55,7 +55,7 @@ class GFG {
          
         cycleSort(arr, n);
  
-        Console.Write("After sort : ");
+        Console.Write("After sorting: ");
         for (int i = 0; i < n; i++)
             Console.Write(arr[i] + " ");
     }

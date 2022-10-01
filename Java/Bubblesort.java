@@ -1,4 +1,4 @@
-public class BubbleSort {
+public class Bubblesort {
  
 	public static void main(String[] args)
 	{  
@@ -13,7 +13,7 @@ public class BubbleSort {
 		System.out.println("---Array AFTER Bubble Sort---");  
 		
 		printArray(arr); 
- 
+
 	}  
  	static void bubbleSort(int[] array)
 	{  

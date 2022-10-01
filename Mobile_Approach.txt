@@ -1,5 +1,7 @@
-Mobile App Testing Approach (static and dynamic)
+Mobile App Testing Approach (Static and Dynamic)
 
+
+Tech code ahe 
         1. first we get the .apk application file
         2. then its is converted to .zip extension
         3. then the file is extracted 
@@ -35,7 +37,7 @@ Mobile App Testing Approach (static and dynamic)
            a. install the Drozer in windows.  {to do port forwarding before using drozer}(# adb forward tcp:31415 tcp:31415)
            b. To list out all the packages installed on the emulator run {app.package.list –f}
            c. {run app.package.info-a com.mwr.example.sieve} (run this command to get the exported component).
-           d. exploit them.
+           d. exploit
            
        --> [ Dynamic Aproach ]
        
@@ -51,3 +53,5 @@ Mobile App Testing Approach (static and dynamic)
            b. download ca certificate 
            c. sd card storage rename with extenstion .cer
            d. In settings go security - install from storage device.  
+           
+           We can other tools as well to pentest mobile with virtualization such as androidStudio, NOX, Genymotion etc

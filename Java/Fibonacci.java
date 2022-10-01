@@ -9,11 +9,11 @@ class fibonacci {
             b=c;
         }
         return c;
-    }
 
     public static void main(String args[]) {
-        int n=9;
+        int n=9
         System.out.println("The "+n+"th Fibonacci number is: "+fib(n));
         
     }
 }
+//
